@@ -69,13 +69,13 @@ const App = () => {
     formData.append('image', dataURLtoFile(imagePreview, 'image.jpg'));
 
     try {
-      const response = await fetch('http://localhost:8000/predict/', {
+      const response = await fetch('http://localhost:8000/predict', {
         method: 'POST',
         body: formData,
       });
 
       const data = await response.json();
-      setAnalysisResult(data.emotion);  // Suppose que le serveur retourne l'émotion détectée
+      setAnalysisResult(data.mood);  // Suppose que le serveur retourne l'émotion détectée
     } catch (error) {
       console.error('Erreur pendant l’analyse :', error);
       setAnalysisResult("Erreur pendant l'analyse.");
