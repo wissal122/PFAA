@@ -1,0 +1,205 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f5f2;
+  margin: 0; 
+}
+
+header {
+  padding: 8px; 
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e6c7cb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 60px; 
+  width: auto;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+
+section.description {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+  color: black;
+}
+
+section.description h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+section.description p {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+section.description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section.description li {
+  margin-bottom: 8px;
+}
+
+main {
+  max-width: 700px; 
+  margin: 8px auto; 
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+main h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+main p {
+  color: #4a5568;
+}
+
+.upload-section {
+  padding: 16px;
+  border: 2px dashed #e2e8f0;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+.upload-section input {
+  margin-bottom: 16px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.upload-section img {
+  margin-top: 16px;
+  max-width: 100%;  
+  max-height: 250px; 
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: auto;  
+  margin-right: auto; 
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.delete-button {
+  margin-top: 12px;
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c53030;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  padding: 12px 24px;
+  margin: 8px auto; 
+}
+
+nav button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: 2px solid #e6c7cb;  
+  border-radius: 8px;
+  background-color: #f7f5f2;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav button.bg-blue-500 {
+  background-color: #f7f5f2;
+  color: black;
+}
+
+nav button.bg-gray-200 {
+  background-color: #f7f5f2;
+  color: black;
+}
+
+nav button + button {
+  margin-left: 12px;
+}
+
+
+h2 {
+  animation: none;
+} 
+
+.gif-image {
+  width: 50%; 
+  max-width: 200px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9fafb;
+}
+
+.captcha-content {
+  text-align: center;
+}
+
+.captcha-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ec59c7; 
+  margin-bottom: 1.5rem;
+}
+.analyse-button {
+  margin-top: 12px;
+  background-color: #176f22;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.analyse-button:hover {
+  background-color: #176f22;
+}
+.analyse-button + .delete-button {
+  margin-top: 20px; }
